@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mongodb # chart name
+version: 1.0.0  # chart version exmple
+description: mongodb helm chart description #optional
+appVersion: v1  #apllication version #optional
