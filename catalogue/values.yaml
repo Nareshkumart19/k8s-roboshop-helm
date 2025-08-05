@@ -1,3 +1,4 @@
-Statefulset:
+deployment:
   imageURL: nareshkumart/catalogue
   imageVersion: v1
+  maxReplicas: 10

@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: "{{ .Values.Statefulset.imageURL }}:{{ .Values.Statefulset.imageVersion }}"
+        image: "{{ .Values.deployment.imageURL }}:{{ .Values.deployment.imageVersion }}"
         resources:
           requests:
             cpu: "50m"
