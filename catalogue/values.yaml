@@ -1,4 +1,6 @@
 deployment:
   imageURL: nareshkumart/catalogue
   imageVersion: v1
+hpa:
   maxReplicas: 10
+  Utilization: 70
