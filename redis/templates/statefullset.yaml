@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: redis
-          image: "{{ .Values.StatefulSet.imageURL }}:{{ .Values.StatefulSet.imageVersion }}"
+          image: "{{ .Values.StatefulSet.imageURL }}:{{ .Values.StatefulSet.imageVersion}}"
           volumeMounts:
             - name: redis-data
               mountPath: /data
