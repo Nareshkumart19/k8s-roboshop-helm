@@ -1,0 +1,3 @@
+Statefulset:
+  imageURL: nareshkumart/catalogue
+  imageVersion: v1
